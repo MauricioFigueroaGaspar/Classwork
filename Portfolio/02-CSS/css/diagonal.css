@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border: 10px, solid;
+    padding: 20px;
+}
+
+.mid {
+    background-color: fuchsia;
+    width: 200px;
+    height: 200px;
+    border: 20px;
+    margin-left: 260px;
+    
+}
+
+.bottom {
+    background-color: khaki;
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    margin-left: 460px;
+}

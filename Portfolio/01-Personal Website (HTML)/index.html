@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website - HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="top-nav">
+    <a href="#background">Background</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#people">Heroes</a>
+    <a href="#schedule">Schedule</a>
+    <a href="destination.html">My Favorite Spots</a>
+  </nav>
+
+  <main>
+
+    <!-- ================= BASIC STRUCTURES ================= -->
+    <table class="layout-table">
+      <tr>
+        <td style="width:180px;">
+          <img class="profile-photo" src="images/yo.jpg" alt="Foto de Mauricio">
+        </td>
+        <td>
+          <h1>Mauricio Figueroa Gaspar</h1>
+          <p class="job-title">Computer Science student</p>
+          <p class="address">Zapopan, Jalisco, México</p>
+        </td>
+      </tr>
+    </table>
+
+    <p>
+      soy el mushashito y me apasiona ir al cine después de fondearme un tritón
+    </p>
+  
+    <blockquote>
+      "unas kawasakis bien eclesiásticas o que mushasho" — chelastian aguilar
+    </blockquote>
+
+    <hr>
+
+    <!-- ================= BACKGROUND ================= -->
+    <section id="background">
+      <h2>Background</h2>
+      <p>
+        I completed all of my academic studies, from elementary school through high school, at Colegio Altamira, a Catholic boys' school. I am currently studying at the Universidad Panamericana, where I continue to develop skills for my personal and professional growth.
+      </p>
+
+      <h3 id="education">Education</h3>
+      <ul>
+        <li>
+          <a href="https://www.example-elementary.edu" target="_blank">
+            <img class="logo-inline" src="images/altamira logo.png" alt="Logo Primaria">
+          </a>
+          <em>[2013 - 2019]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+        </li>
+        <li>
+          <a href="https://www.example-middle.edu" target="_blank">
+            <img class="logo-inline" src="images/altamira logo.png" alt="Logo Secundaria">
+          </a>
+          <em>[2019 - 2022]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+        </li>
+        <li>
+          <a href="https://www.example-high.edu" target="_blank">
+            <img class="logo-inline" src="images/altamira logo.png" alt="Logo Preparatoria">
+          </a>
+          <em>[2022 - 2025]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+        </li>
+        <li>
+          <a href="https://www.example-university.edu" target="_blank">
+            <img class="logo-inline" src="images/up logo.png" alt="Logo Universidad">
+          </a>
+          <em>[2025 - Presente]</em> — <strong><a href="https://www.up.edu.mx" target="_blank">Universidad Panamericana</a></strong>
+        </li>
+      </ul>
+
+      <h3 id="skills">Skills</h3>
+      <ol>
+        <li>[Habilidad 1, ej. HTML &amp; CSS] — 90%</li>
+        <li>[Habilidad 2, ej. JavaScript] — 80%</li>
+        <li>[Habilidad 3, ej. Python] — 75%</li>
+        <li>[Habilidad 4, ej. Bases de datos SQL] — 65%</li>
+        <li>[Habilidad 5, ej. Diseño UX/UI] — 60%</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <!-- ================= HOBBIES ================= -->
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+
+      <h3>Favorite food</h3>
+      <p><strong>Top 5 cuisines:</strong></p>
+      <ol>
+        <li>Mexican</li>
+        <li>Italian</li>
+        <li>Japanese</li>
+        <li>English</li>
+        <li>Thai</li>
+      </ol>
+      <p><strong>Bottom 3 cuisines:</strong></p>
+      <ol>
+        <li>Russian</li>
+        <li>Lebanese</li>
+        <li>Indian</li>
+      </ol>
+
+      <h3>Books, Movies &amp; TV Shows</h3>
+      <ul>
+        <li>
+          <!--<img class="cat-thumb" src="https://placehold.co/220x140?text=Books" alt="Books">-->
+          <strong>Books</strong>
+          <ul>
+            <li>El camino de Sherlock</li>
+            <li>Donde habitan los ángeles</li>
+            <li>Hábitos atómicos</li>
+          </ul>
+        </li>
+        <li>
+          <!--<img class="cat-thumb" src="https://placehold.co/220x140?text=Movies" alt="Movies">-->
+          <strong>Movies</strong>
+          <ul>
+            <li>Avengers Endgame</li>
+            <li>The Odyssey</li>
+            <li>Rush Hour 3</li>
+          </ul>
+        </li>
+        <li>
+          <!--<img class="cat-thumb" src="https://placehold.co/220x140?text=TV+Shows" alt="TV Shows">-->
+          <strong>TV Shows</strong>
+          <ul>
+            <li>The Mentalist</li>
+            <li>Loki</li>
+            <li>The Fresh Prince of Bel-Air</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ================= HEROES / WRITERS / MUSICIANS TABLE ================= -->
+    <section id="people">
+      <h2>Heroes, Writers &amp; Musicians</h2>
+      <table class="people-table">
+        <tr>
+          <th></th>
+          <th>Picture</th>
+          <th>Name</th>
+          <th>Date of birth / death</th>
+          <th>Profession</th>
+          <th>Achievements</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td><img src="https://placehold.co/90x90?text=Photo" alt="[Nombre 1]"></td>
+          <td>[Nombre 1]</td>
+          <td>[Fecha de nacimiento — Fecha de muerte, si aplica]</td>
+          <td>[Profesión]</td>
+          <td>[Logro o obra más famosa]</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td><img src="https://placehold.co/90x90?text=Photo" alt="[Nombre 2]"></td>
+          <td>[Nombre 2]</td>
+          <td>[Fecha de nacimiento — Fecha de muerte, si aplica]</td>
+          <td>[Profesión]</td>
+          <td>[Logro o obra más famosa]</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td><img src="https://placehold.co/90x90?text=Photo" alt="[Nombre 3]"></td>
+          <td>[Nombre 3]</td>
+          <td>[Fecha de nacimiento — Fecha de muerte, si aplica]</td>
+          <td>[Profesión]</td>
+          <td>[Logro o obra más famosa]</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- ================= WEEKLY SCHEDULE TABLE ================= -->
+    <section id="schedule">
+      <h2>Weekly Schedule</h2>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Description</th>
+          <th>Place</th>
+          <th>Type</th>
+          <th>Notes</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>2026-08-10</td>
+          <td>08:00</td>
+          <td>10:00</td>
+          <td>[Clase de Desarrollo Web]</td>
+          <td>[Salón / Campus]</td>
+          <td>School</td>
+          <td>[Notas]</td>
+          <td><span class="icon-busy">Busy</span></td>
+        </tr>
+        <tr>
+          <td>2026-08-10</td>
+          <td>18:00</td>
+          <td>19:00</td>
+          <td>[Ejercicio]</td>
+          <td>[Gimnasio]</td>
+          <td>Personal</td>
+          <td>[Notas]</td>
+          <td><span class="icon-free">Free</span></td>
+        </tr>
+      </table>
+
+      <!-- ================= FORM ================= -->
+      <h3>Add a Schedule Entry</h3>
+      <form action="#" method="post">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="start">Time start</label>
+        <input type="time" id="start" name="start" required>
+
+        <label for="end">Time end</label>
+        <input type="time" id="end" name="end" required>
+
+        <label for="activity">Activity</label>
+        <input type="text" id="activity" name="activity" placeholder="e.g. Study session" required>
+
+        <label for="place">Place</label>
+        <input type="text" id="place" name="place" placeholder="e.g. Library">
+
+        <label for="type">Type</label>
+        <select id="type" name="type">
+          <option value="school">School</option>
+          <option value="personal">Personal</option>
+          <option value="profesional">Profesional</option>
+          <option value="familiar">Familiar</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Additional notes"></textarea>
+
+        <label for="flag">Flag</label>
+        <input type="color" id="flag" name="flag" value="#3a5a40">
+
+        <label for="busy">
+          <input type="checkbox" id="busy" name="busy" style="width:auto; display:inline-block;">
+          Busy
+        </label>
+
+        <button type="submit">Save entry</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <p>
+      🌍 Check out <a href="destination.html">My Favorite Spots</a> — a tour of my favorite destinations around the world.
+    </p>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 [Tu Nombre]. Personal Website — Web Development Class.</p>
+  </footer>
+
+</body>
+</html>

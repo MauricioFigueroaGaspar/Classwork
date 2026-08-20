@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    width: min-content;
+    margin: auto;
+}
+
+.top {
+    background-color: blue;
+    height: 310px;
+    width: 150px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mid {
+    background-color: yellow;
+    height: 310px;
+    width: 150px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom {
+    background-color: red;
+    height: 310px;
+    width: 150px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
