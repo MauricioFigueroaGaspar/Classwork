@@ -1,12 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website - CSS</title>
+  <title>Personal Website - JS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
+
+
+  <div class="cloud-layer left" aria-hidden="true">
+    <img class="cloud" src="images/cloud.png" alt="">
+  </div>
+
+  <div class="cloud-layer right" aria-hidden="true">
+    <img class="cloud" src="images/cloud.png" alt="">
+  </div>
+
+  <nav class="top-nav">
+    <a href="#background">Background</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#people">Heroes</a>
+    <a href="#schedule">Schedule</a>
+    <a href="destination.html">My Favorite Spots</a>
+  </nav>
+
+  <main>
+
+    <div class="page-section" id="intro">
+      <table class="layout-table">
+        <tr>
+          <td style="width:180px;">
+            <img class="profile-photo" src="images/yo.jpg" alt="Foto de Mauricio">
+          </td>
+          <td>
+            <h1>Mauricio Figueroa Gaspar</h1>
+            <p class="job-title">Computer Science student</p>
+            <p class="address">Zapopan, Jalisco, México</p>
+          </td>
+        </tr>
+      </table>
+      <p>
+        I'm Mauricio Figueroa, mostly known as Mau.
+      </p>
+
+      <blockquote>
+        "Procastination is the fear of success" — Denis Waitley
+      </blockquote>
+    </div>
+
+    <hr>
+
+
+    <div class="page-section alt-bg">
+      <section id="background">
+        <h2>Background</h2>
+        <p>
+          I completed all of my academic studies, from elementary school through high school, at Colegio Altamira, a Catholic boys' school. I am currently studying at the Universidad Panamericana, where I continue to develop skills for my personal and professional growth.
+        </p>
+        <h3 id="education">Education</h3>
+        <ul>
+          <li>
+            <a href="https://www.example-elementary.edu" target="_blank">
+              <img class="logo-inline" src="images/altamira logo.png" alt="Logo Primaria">
+            </a>
+            <em>[2013 - 2019]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+          </li>
+          <li>
+            <a href="https://www.example-middle.edu" target="_blank">
+              <img class="logo-inline" src="images/altamira logo.png" alt="Logo Secundaria">
+            </a>
+            <em>[2019 - 2022]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+          </li>
+          <li>
+            <a href="https://www.example-high.edu" target="_blank">
+              <img class="logo-inline" src="images/altamira logo.png" alt="Logo Preparatoria">
+            </a>
+            <em>[2022 - 2025]</em> — <strong><a href="https://www.altamira.edu.mx" target="_blank">Colegio Altamira</a></strong>
+          </li>
+          <li>
+            <a href="https://www.example-university.edu" target="_blank">
+              <img class="logo-inline" src="images/up logo.png" alt="Logo Universidad">
+            </a>
+            <em>[2025 - Present]</em> — <strong><a href="https://www.up.edu.mx" target="_blank">Universidad Panamericana</a></strong>
+          </li>
+        </ul>
+        <h3 id="skills">Skills</h3>
+        <ol>
+          <li>PowerPoint — 90%</li>
+          <li>Excel — 80%</li>
+          <li>C++ — 80%</li>
+          <li>GitHub — 75%</li>
+          <li>HTML — 60%</li>
+      </ol>
+      </section>
+    </div>
+    
+    <hr>
+
+    <div class="page-section">
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <h3>Favorite food</h3>
+        <p><strong>Top 5 cuisines:</strong></p>
+        <ol>
+          <li>Mexican</li>
+          <li>Italian</li>
+          <li>Japanese</li>
+          <li>French</li>
+          <li>Thai</li>
+        </ol>
+        <p><strong>Bottom 3 cuisines:</strong></p>
+        <ol>
+          <li>Russian</li>
+          <li>Lebanese</li>
+          <li>Indian</li>
+        </ol>
+        <h3>Books, Movies &amp; TV Shows</h3>
+        <ul>
+          <li>
+            <strong>Books</strong>
+            <ul>
+              <li>El camino de Sherlock</li>
+              <li>Donde habitan los ángeles</li>
+              <li>Hábitos atómicos</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Movies</strong>
+            <ul>
+              <li>Avengers Endgame</li>
+              <li>The Odyssey</li>
+              <li>Rush Hour 3</li>
+            </ul>
+          </li>
+          <li>
+            <strong>TV Shows</strong>
+            <ul>
+              <li>The Mentalist</li>
+              <li>Loki</li>
+              <li>The Amazing Digital Circus</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <hr>
+
+
+    <div class="page-section alt-bg">
+      <section id="people">
+        <h2>Heroes, Writers &amp; Musicians</h2>
+        <div class="team-container">
+          <div class="team-card">
+            <img src="images/tameimpala.png" alt="Tame Impala">
+            <h3>Tame Impala</h3>
+            <p class="team-role">Singer and songwriter</p>
+            <p class="team-desc">20/01/1986 — Present<br>"Lonerism" album</p>
+          </div>
+          <div class="team-card">
+            <img src="images/weeknd.png" alt="The Weeknd">
+            <h3>The Weeknd</h3>
+            <p class="team-role">Singer and songwriter</p>
+            <p class="team-desc">16/02/1990 — Present<br>Most reproduced Spotify song: "Blinding Lights"</p>
+          </div>
+          <div class="team-card">
+            <img src="images/dostoyevski.png" alt="Fyodor Dostoevsky">
+            <h3>Fyodor Dostoevsky</h3>
+            <p class="team-role">Writer</p>
+            <p class="team-desc">11/11/1821 — 09/02/1881<br>Masterpiece: "Crime and Punishment"</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <hr>
+
+
+    <div class="page-section">
+      <section id="schedule">
+        <h2>Weekly Schedule</h2>
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Description</th>
+            <th>Place</th>
+            <th>Type</th>
+            <th>Notes</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>2026-08-10</td>
+            <td>07:00</td>
+            <td>09:00</td>
+            <td>Exercise</td>
+            <td>Gym</td>
+            <td>Personal</td>
+            <td>Train back and biceps</td>
+            <td><span class="icon-free">🟢 Free</span></td>
+          </tr>
+          <tr>
+            <td>2026-08-10</td>
+            <td>09:00</td>
+            <td>11:00</td>
+            <td>Web class</td>
+            <td>Online</td>
+            <td>School</td>
+            <td>Read all the pre-class content</td>
+            <td><span class="icon-busy">🔴 Busy</span></td>
+          </tr>
+        </table>
+
+
+        <h3>Add a Schedule Entry</h3>
+        <form action="#" method="post">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+          <label for="start">Time start</label>
+          <input type="time" id="start" name="start" required>
+          <label for="end">Time end</label>
+          <input type="time" id="end" name="end" required>
+          <label for="activity">Activity</label>
+          <input type="text" id="activity" name="activity" placeholder="e.g. Study session" required>
+          <label for="place">Place</label>
+          <input type="text" id="place" name="place" placeholder="e.g. Library">
+          <label for="type">Type</label>
+          <select id="type" name="type">
+            <option value="school">School</option>
+            <option value="personal">Personal</option>
+            <option value="profesional">Profesional</option>
+            <option value="familiar">Familiar</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Additional notes"></textarea>
+          <label for="flag">Flag</label>
+          <input type="color" id="flag" name="flag" value="#3a5a40">
+          <label for="busy">
+            <input type="checkbox" id="busy" name="busy" style="width:auto; display:inline-block;">
+            Busy
+          </label>
+          <button type="submit">Save entry</button>
+        </form>
+      </section>
+    </div>
+
+    <hr>
+
+    <p>
+      🌍 Check out <a href="destination.html">My Favorite Spots</a> — a tour of my favorite destinations around the world.
+    </p>
+  </main>
+
+  <img class="mountain" src="images/mountain.png" alt="Mountain range">
+
+  <script src="js/server.js"></script>
 </body>
 </html>
