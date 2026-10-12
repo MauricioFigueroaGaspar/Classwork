@@ -1,9 +1,11 @@
 # Modular Express Routing, Protected Chains & Browser Client Testing
 
 ## 🎯 Lab Overview & Objectives
+
 In this closing session on Express backend architecture, you will transition from a single-file monolithic server into a modular, enterprise-grade directory structure. You will split endpoint definitions across isolated router files using `express.Router()` and enforce security protocols via **middleware method chaining**.
 
 By the end of this lab, you will be able to:
+
 1. **Modularize Backend Routing:** Isolate resource controllers into dedicated modules under a `/routes` directory.
 2. **Apply Method Chaining:** Use Express's `router.route()` pattern to chain multiple HTTP verbs (`.get()`, `.post()`, `.delete()`) and security middlewares cleanly on identical URI paths.
 3. **Implement Route Protection Middleware:** Intercept incoming requests to verify authorization headers before granting access to protected handlers.
@@ -31,9 +33,10 @@ sustainhub-modular-api/
 
 ---
 
-
 ### Scenario
+
 You are refactoring the **SustainHub Climate API**. The project has outgrown a single `server.js` file. Your team leader has tasked you with:
+
 1. Extracting authorization and initiative endpoints into separate router files using `express.Router()`.
 2. Safeguard climate data by chaining a `protect` middleware to verify incoming `Authorization: Bearer <token>` headers.
 3. Restricting destructive actions (like `DELETE /api/initiatives/:id`) using a chained `requireAdmin` middleware.
