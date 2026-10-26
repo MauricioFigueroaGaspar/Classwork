@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather report</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        .weather-card { border: 1px solid #ccc; padding: 20px; display: inline-block; border-radius: 10px; }
+    </style>
 </head>
 
 <body>
     <form action="/" method="post">
         <label for="cityName">City Name</label>
-        <input id="cityName" type="text" name="cityName">
+        <input id="cityName" type="text" name="cityName" required>
         <button type="submit">Go</button>
     </form>
 </body>

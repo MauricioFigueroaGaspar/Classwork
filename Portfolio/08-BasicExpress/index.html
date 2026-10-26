@@ -9,10 +9,10 @@
 
 <body>
     <h1>BMI Calculator</h1>
-    <form>
-        <input type="text" name="weight" placeholder="Weight">
-        <input type="text" name="height" placeholder="Height">
-        <button type="submit" name="submit">Calculate BMI</button>
+    <form action="/calculate" method="POST">
+        <input type="text" name="weight" placeholder="Weight (kg)">
+        <input type="text" name="height" placeholder="Height (cm)">
+        <button type="submit">Calculate BMI</button>
     </form>
 </body>
 
