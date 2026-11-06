@@ -2,6 +2,10 @@
   "name": "sustainhub-climate-action-explorer",
   "version": "0.1.0",
   "private": true,
+  "contributors": [
+    "Mauricio Figueroa",
+    "Santiago Lopez"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
